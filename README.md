@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/htpcmanager
-[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/htpcmanager.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/htpcmanager.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-htpcmanager/)
+[![](https://images.microbadger.com/badges/image/lsioarmhf/htpcmanager.svg)](http://microbadger.com/images/lsioarmhf/htpcmanager "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/htpcmanager.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/htpcmanager.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-htpcmanager/)
 [hub]: https://hub.docker.com/r/lsioarmhf/htpcmanager/
 
 Htpcmanager, a front end for many htpc related applications. Hellowlol version.[Htpcmanager](https://github.com/Hellowlol/HTPC-Manager)
@@ -66,4 +66,5 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 ## Versions
 
++ **11.09.16:** Add layer badges to README.
 + **07.09.16:** Initial Release.

@@ -1,4 +1,4 @@
-FROM lsioarmhf/base.python
+FROM lsiobase/alpine.python.armhf
 MAINTAINER sparklyballs
 
 # add local files
