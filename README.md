@@ -66,5 +66,6 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 
 ## Versions
 
++ **26.09.16:** Add back cherrypy after removal from baseimage.
 + **11.09.16:** Add layer badges to README.
 + **07.09.16:** Initial Release.
