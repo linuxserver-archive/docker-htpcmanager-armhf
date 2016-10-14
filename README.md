@@ -11,7 +11,7 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 * [Podcast][podcasturl] covers everything to do with getting the most from your Linux Server plus a focus on all things Docker and containerisation!
 
 # lsioarmhf/htpcmanager
-[![](https://images.microbadger.com/badges/image/lsioarmhf/htpcmanager.svg)](http://microbadger.com/images/lsioarmhf/htpcmanager "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/htpcmanager.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/htpcmanager.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-htpcmanager/)
+[![](https://images.microbadger.com/badges/version/lsioarmhf/htpcmanager.svg)](https://microbadger.com/images/lsioarmhf/htpcmanager "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/htpcmanager.svg)](http://microbadger.com/images/lsioarmhf/htpcmanager "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/htpcmanager.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/htpcmanager.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-htpcmanager/)
 [hub]: https://hub.docker.com/r/lsioarmhf/htpcmanager/
 
 Htpcmanager, a front end for many htpc related applications. Hellowlol version.[Htpcmanager](https://github.com/Hellowlol/HTPC-Manager)
@@ -64,8 +64,17 @@ Smartmontools has not been included, you can safely ignore the warning error in 
 * To monitor the logs of the container in realtime `docker logs -f htpcmanager`.
 
 
+* container version number 
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' htpcmanager`
+
+* image version number
+
+`docker inspect -f '{{ index .Config.Labels "build_version" }}' lsioarmhf/htpcmanager`
+
 ## Versions
 
++ **14-10-16:** Add version layer information.
 + **26.09.16:** Add back cherrypy after removal from baseimage.
 + **11.09.16:** Add layer badges to README.
 + **07.09.16:** Initial Release.
