@@ -2,6 +2,8 @@
 [forumurl]: https://forum.linuxserver.io
 [ircurl]: https://www.linuxserver.io/irc/
 [podcasturl]: https://www.linuxserver.io/podcast/
+[appurl]: https://github.com/Hellowlol/HTPC-Manager
+[hub]: https://hub.docker.com/r/lsioarmhf/htpcmanager/
 
 [![linuxserver.io](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/linuxserver_medium.png)][linuxserverurl]
 
@@ -12,12 +14,10 @@ The [LinuxServer.io][linuxserverurl] team brings you another container release f
 
 # lsioarmhf/htpcmanager
 [![](https://images.microbadger.com/badges/version/lsioarmhf/htpcmanager.svg)](https://microbadger.com/images/lsioarmhf/htpcmanager "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/lsioarmhf/htpcmanager.svg)](http://microbadger.com/images/lsioarmhf/htpcmanager "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/lsioarmhf/htpcmanager.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/lsioarmhf/htpcmanager.svg)][hub][![Build Status](http://jenkins.linuxserver.io:8080/buildStatus/icon?job=Dockers/LinuxServer.io-armhf/lsioarmhf-htpcmanager)](http://jenkins.linuxserver.io:8080/job/Dockers/job/LinuxServer.io-armhf/job/lsioarmhf-htpcmanager/)
-[hub]: https://hub.docker.com/r/lsioarmhf/htpcmanager/
 
 Htpcmanager, a front end for many htpc related applications. Hellowlol version.[Htpcmanager](https://github.com/Hellowlol/HTPC-Manager)
 
-[![htpcmanager](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png)][htpcurl]
-[htpcurl]: https://github.com/Hellowlol/HTPC-Manager
+[![htpcmanager](https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/htpcmanager-icon.png)][appurl]
 
 ## Usage
 
