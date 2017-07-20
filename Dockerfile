@@ -11,14 +11,17 @@ RUN \
  pip install --no-cache-dir -U \
 	cherrypy && \
 
-# cleanup
- rm -rf \
-	/root/.cache \
-	/tmp/*
+# install app
+ git clone --depth 1 https://github.com/Hellowlol/HTPC-Manager.git /app/htpcmanager && \
 
-# add local files
+# cleanup
+rm -rf \
+	/root/.cache \
+/tmp/*
+
+# add local files
 COPY root/ /
 
-# ports and volumes
+# ports and volumes
 EXPOSE 8085
 VOLUME /config
